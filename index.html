@@ -7,10 +7,17 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <h1>Albums</h1>
-
+    <h1>Color Tester</h1>
+    <div class="img-container" id="images">
+        <img src="images/bailey_thefluff_test1.jpeg" id="thumbnail" alt="Smaller version of the selected color" srcset="">
+        <img src="images/bailey_thefluff_test2.jpeg" id="full-size" alt="Larger version of the selected color" srcset="">
+    </div>
     
-    
+    <div class="button_container">
+    <input class="pretty_button" type="button" value="next"> <i class="fa-solid fa-circle-chevron-right"></i>
+    <input class="text_box" id="text_input" type="text" >
+    <input class="pretty_button" type="button" value="previous"> <i class="fa-solid fa-circle-chevron-left"></i>
+</div>
 </body>
 <script src="scripts/main.js"></script>
 </html>
